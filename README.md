@@ -4,8 +4,10 @@ This is an end to end ml project that follows the modular coding approch to conv
 
 In this project, we are using the student marks dataset to see how the students background and marks can be used to predict their scores in other subjects.
 
+------
 To run this project, download and unzip the file. 
 
+create a virtual env using anaconda, then after activating the env run the following commands:
 
 install the dependencies using :
 `pip install -r requirements.txt`
