@@ -7,9 +7,15 @@ In this project, we are using the student marks dataset to see how the students 
 ------
 To run this project, download and unzip the file. 
 
-create a virtual env using anaconda, then after activating the env run the following commands:
+using the anaconda prompt, cd into the working directory and then follow the instructions:
 
-install the dependencies using :
+create a virtual env using anaconda:
+`conda create -p venv python==3.8 -y`
+
+activate the virtual env using:
+`conda activate venv/`
+
+after activating the virtual environment, uncomment the `-e` in requirements.txt and then install the dependencies using :
 `pip install -r requirements.txt`
 
 then to run the file use:
